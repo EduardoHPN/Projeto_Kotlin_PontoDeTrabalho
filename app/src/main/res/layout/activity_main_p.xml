@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:padding="26dp"
+    android:orientation="vertical"
+    android:background="@color/HardBlue"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityP">
+
+
+    <TextView
+        android:id="@+id/testeidid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monte sua agenda "
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="130dp"
+        />
+
+
+    <Spinner
+
+        android:id="@+id/spinner"
+        android:layout_width="359dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/black"
+        android:foregroundTint="@color/black"
+        android:textAlignment="textStart" />
+
+    <Spinner
+        android:id="@+id/spinnerHora"
+        android:layout_width="359dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+
+
+        />
+
+    <Spinner
+        android:id="@+id/spinnerHoraSaida"
+        android:layout_width="359dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="100dp"
+
+
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/BtnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:backgroundTint="@color/PurpleHard"
+        android:layout_weight="1"
+        android:layout_gravity=""
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/Next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:backgroundTint="@color/PurpleHard"
+        android:textSize="13sp"
+        android:layout_weight="1"
+        android:layout_marginStart="119dp"
+        android:text="Finalizar" />
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

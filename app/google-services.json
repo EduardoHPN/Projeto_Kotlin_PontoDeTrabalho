@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "911455394421",
+    "project_id": "projetointegradoriii-8d69a",
+    "storage_bucket": "projetointegradoriii-8d69a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911455394421:android:60cce1aa9117471244f63c",
+        "android_client_info": {
+          "package_name": "com.example.pjiii"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtGzm0YokPYzOr3E_zJfBSqlnGbIYousw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

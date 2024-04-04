@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="26dp"
+    android:background="@color/HardBlue"
+    tools:context=".MainActivityBP" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"
+        android:elevation="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="Seu próximo ponto é uma "
+
+        />
+
+    <Button
+        android:id="@+id/btbPonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="56dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/PurpleHard"
+        android:layout_gravity="center"
+        android:text="Bater ponto" />
+
+    <Button
+        android:id="@+id/BtnRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:backgroundTint="@color/PurpleHard"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Gerar relatorio" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/HardBlue"
+        android:src="@drawable/imgpc"/>
+
+
+</LinearLayout>
